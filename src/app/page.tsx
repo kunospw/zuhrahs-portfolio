@@ -127,9 +127,9 @@ export default function Home() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
           >
-            <div className="relative -mt-[16%] ml-[45%]">
+            <div className="relative -mt-[20%] ml-[52%]">
               <h2
-                className="font-blank-river text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[6rem] font-normal whitespace-nowrap"
+                className="font-blank-river text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[6rem] font-normal whitespace-nowrap"
                 style={{
                   textShadow: `
                     -2px -2px 0 #000,
@@ -158,7 +158,7 @@ export default function Home() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
           >
-            <div className="relative w-full h-full max-w-[12rem] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl ml-0 sm:ml-[4%] mb-55 sm:mb-0">
+            <div className="relative w-full h-full max-w-[12rem] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl -ml-[8%] sm:ml-[4%] mb-66 sm:mb-0">
               <Image
                 src={layer10}
                 alt="Character Layer"
@@ -181,7 +181,7 @@ export default function Home() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
           >
-            <div className="relative w-full h-full max-w-[2000%] sm:max-w-6xl -ml-[32%] sm:-ml-[22%] mb-115 sm:mb-0">
+            <div className="relative w-full h-full max-w-[2000%] sm:max-w-6xl -ml-[32%] sm:-ml-[22%] mb-138 sm:mb-0">
               <Image
                 src={kertas}
                 alt="Kertas Layer"
@@ -201,7 +201,7 @@ export default function Home() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
           >
-            <div className="relative w-full h-full max-w-[2000%] sm:max-w-6xl -mr-[55%] sm:-mr-[40%] mt-40 sm:-mt-[15%]">
+            <div className="relative w-full h-full max-w-[2000%] sm:max-w-6xl -mr-[55%] sm:-mr-[40%] mt-48 sm:-mt-[15%]">
               <Image
                 src={kertas}
                 alt="Kertas Layer Top Right"
@@ -221,7 +221,7 @@ export default function Home() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           >
-            <div className="relative mb-60 sm:mb-[5%] mr-[5%] sm:mr-[20%] text-left px-4 sm:px-0">
+            <div className="relative mb-70 sm:mb-[5%] mr-[5%] sm:mr-[20%] text-left px-4 sm:px-0">
               <p
                 className="font-adventure-magazine text-black text-base sm:text-2xl md:text-4xl lg:text-5xl xl:text-5xl italic leading-tight"
                 style={{
@@ -246,7 +246,7 @@ export default function Home() {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             >
-              <div className="relative mt-[5%] mr-[42%] sm:mr-[20%] w-40 sm:w-80 md:w-[28rem] lg:w-[32rem] xl:w-[36rem] drop-shadow-lg">
+              <div className="relative -mt-[8%] mr-[16%] sm:mr-[20%] w-40 sm:w-80 md:w-[28rem] lg:w-[32rem] xl:w-[36rem] drop-shadow-lg">
                 <Image
                   src={layer4}
                   alt="Hello My Name Is Zuhrah"
@@ -266,7 +266,7 @@ export default function Home() {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             >
-              <div className="relative mt-[10%] ml-[3%] sm:ml-[5%] md:ml-[2%] w-20 sm:w-36 md:w-44">
+              <div className="relative -mt-[6%] -ml-[2%] sm:ml-[5%] md:ml-[2%] w-20 sm:w-36 md:w-44">
                 <Image
                   src={layer2}
                   alt="Skull Graphic"
@@ -286,7 +286,7 @@ export default function Home() {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
             >
-              <div className="relative ml-[2%] sm:ml-[6%] md:ml-[5%] w-44 sm:w-96 md:w-[28rem] -mt-96 sm:mt-0">
+              <div className="relative -ml-[8%] sm:ml-[6%] md:ml-[5%] w-44 sm:w-96 md:w-[28rem] -mt-130 sm:mt-0">
                 <Image
                   src={polaroidPhoto}
                   alt="Zuhrah Photo"
@@ -326,7 +326,7 @@ export default function Home() {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.7, ease: "backOut" }}
             >
-              <div className="relative ml-[10%] -mt-[5%] w-56 sm:w-64 md:w-80">
+              <div className="relative ml-[10%] sm:ml-[10%] -mt-[5%] w-32 sm:w-64 md:w-80">
                 <Image
                   src={layer3}
                   alt="Exclamation Mark"
