@@ -17,7 +17,7 @@ export default function SkillsSection() {
       <div className="relative w-full max-w-7xl mx-auto min-h-[900px] sm:min-h-[1000px] md:min-h-[1100px] lg:min-h-[1200px] xl:min-h-[700px]">
         {/* Skills Section - Dark Red Background */}
         <motion.div
-          className="absolute -left-4 sm:-left-8 md:-left-12 lg:-left-20 top-40 sm:top-60 md:top-80 lg:top-[340px] w-[58%] sm:w-[75%] md:w-[62%] lg:w-2/3 max-w-[90%] sm:max-w-[75%] md:max-w-[70%] lg:max-w-[66%] bg-[#8B0000] p-4 sm:p-6 md:p-8 lg:p-16 z-[4] pointer-events-auto"
+          className="absolute -left-4 sm:-left-8 md:-left-12 lg:-left-20 top-40 sm:top-60 md:top-100 lg:top-[340px] w-[58%] sm:w-[75%] md:w-[62%] lg:w-2/3 max-w-[90%] sm:max-w-[75%] md:max-w-[70%] lg:max-w-[66%] bg-[#8B0000] p-4 sm:p-6 md:p-8 lg:p-16 z-[4] pointer-events-auto"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
