@@ -12,7 +12,7 @@ import redBackground from "@/assets/coba duulu.png";
 export default function FooterSection() {
   return (
     <section 
-      className="relative h-auto overflow-hidden mt-[-350] sm:mt-40 md:mt-[-400] lg:mt-10"
+      className="relative h-auto overflow-hidden mt-[-200] sm:mt-40 md:mt-[-400] lg:mt-10"
       style={{ 
         width: '100vw',
         marginLeft: 'calc(50% - 50vw)',
@@ -22,7 +22,7 @@ export default function FooterSection() {
     >
       {/* Footer Background - Full width */}
       <div 
-        className="absolute w-full h-full z-[1] -mt-16 sm:-mt-40 md:-mt-46 lg:-mt-120"
+        className="absolute w-full h-full z-[1] -mt-15 sm:-mt-40 md:-mt-46 lg:-mt-120"
         style={{
           width: '145%',
           left: '-20%',
@@ -43,13 +43,13 @@ export default function FooterSection() {
 
       {/* Skull Image - Bottom Right */}
       <motion.div
-        className="absolute bottom-18 right-[-20] md:bottom-0 md:right-0 z-[2]"
+        className="absolute bottom-0 right-[-10] sm:bottom-18 sm:right-[-20] md:bottom-0 md:right-0 z-[2]"
         initial={{ opacity: 0, x: 50, y: 50 }}
         whileInView={{ opacity: 1, x: 0, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
       >
-        <div className="relative w-32 sm:w-48 md:w-64 lg:w-80 xl:w-96 h-auto">
+        <div className="relative w-30 sm:w-48 md:w-64 lg:w-80 xl:w-96 h-auto">
           <Image
             src={skullImage}
             alt="Skull Character"
@@ -62,7 +62,7 @@ export default function FooterSection() {
       </motion.div>
 
       {/* CONTACT ME! Text with Popup - Centered */}
-      <div className="relative z-[3] flex flex-col items-center justify-center py-12 sm:py-16 md:py-20 pb-24 sm:pb-28 md:pb-32">
+      <div className="relative z-[3] flex flex-col items-center justify-center py-8 sm:py-16 md:py-20 pb-8 sm:pb-28 md:pb-32">
         <div className="relative mb-6 sm:mb-8 md:mb-12 px-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.8, y: -20 }}
@@ -93,13 +93,13 @@ export default function FooterSection() {
 
           {/* Popup Graphic - Near CONTACT ME! text */}
           <motion.div
-            className="absolute top-10 sm:top-10 md:top-12 right-14 sm:right-20 md:right-24 lg:right-28 -mt-2 sm:-mt-3 md:-mt-4"
+            className="absolute top-10 sm:top-10 md:top-12 right-8 sm:right-20 md:right-24 lg:right-28 -mt-2 sm:-mt-3 md:-mt-4 scale-[2.5] sm:scale-[5]"
             initial={{ opacity: 0, scale: 0, rotate: -45 }}
-            whileInView={{ opacity: 1, scale: 5, rotate: 0 }}
+            whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.3, ease: "backOut" }}
           >
-            <div className="relative w-8 sm:w-14 md:w-16 lg:w-20 xl:w-24 h-auto">
+            <div className="relative w-6 sm:w-14 md:w-16 lg:w-20 xl:w-24 h-auto">
               <Image
                 src={popupImage}
                 alt="Popup Graphic"
@@ -200,4 +200,5 @@ export default function FooterSection() {
     </section>
   );
 }
+
 
