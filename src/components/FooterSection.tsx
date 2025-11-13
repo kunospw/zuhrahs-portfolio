@@ -44,7 +44,7 @@ export default function FooterSection() {
       {/* Skull Image - Bottom Right */}
       <motion.div
         className="absolute bottom-0 right-[-10] sm:bottom-18 sm:right-[-20] md:bottom-0 md:right-0 z-[2]"
-        initial={{ opacity: 0, x: 50, y: 50 }}
+        initial={{ opacity: 0, x: 50, y: 0 }}
         whileInView={{ opacity: 1, x: 0, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
