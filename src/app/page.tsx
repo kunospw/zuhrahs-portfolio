@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import background from "@/assets/background.png";
 import LoadingSpinner from "@/components/LoadingSpinner";
+import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import EducationExperienceSection from "@/components/EducationExperienceSection";
@@ -52,12 +53,13 @@ export default function Home() {
 
       {/* Container for all layers */}
       <div className={isLoading ? "hidden" : ""}>
+        <Navbar />
         <HeroSection isMounted={isMounted} />
         <AboutSection />
         <EducationExperienceSection />
         <SkillsSection />
+        <FooterSection />
       </div>
-      <FooterSection />
     </div>
   );
 }
